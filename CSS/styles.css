@@ -1,0 +1,329 @@
+:root {
+  --prime-color: #4d5ae5;
+  --second-color: #404bbf;
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+  --subtle-color: #8e8f99;
+  --only-white: #ffffff;
+  --accent-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+/* All pages */
+body {
+  color: var(--dark-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  padding: 0 15px 0 15px;
+}
+.top {
+  background-color: var(--only-white);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.logo {
+  color: var(--prime-color);
+}
+.logo-title {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: var(--dark-color);
+  font-size: 18px;
+  line-height: 133%;
+  letter-spacing: 0.03em;
+  margin-right: 77px;
+}
+.nav-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 600;
+  color: var(--dark-color);
+  font-size: 16px;
+  line-height: 150%;
+  margin-right: 40px;
+}
+.nav-link:last-child {
+  margin-right: 0px;
+}
+.nav-link:hover,
+.nav-link:visited {
+  color: var(--text-color);
+}
+.nav-link:active {
+  color: var(--prime-color);
+}
+.nav-text {
+  display: flex;
+  margin-right: 331px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 24px;
+}
+
+.list-li {
+  width: 264px;
+  margin-right: 24px;
+}
+.list-li:last-child {
+  margin-right: 0;
+}
+.link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 150%;
+  font-style: normal;
+}
+.link:first-child {
+  margin-right: 40px;
+}
+.address {
+  display: flex;
+  margin-right: 0px;
+}
+.address:hover {
+  color: var(--second-color);
+}
+.address:focus {
+  color: var(--prime-color);
+}
+.address:active {
+  color: var(--second-color);
+}
+.address .link:visited {
+  color: var(--text-color);
+}
+.text-h {
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--dark-color);
+  margin-bottom: 8px;
+}
+.text-p {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text-color);
+}
+.footer {
+  color: var(--accent-color);
+  background-color: var(--dark-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.logo-footer {
+  margin-right: 0;
+}
+.footer-studio {
+  color: var(--only-white);
+}
+.footer-text {
+  width: 264px;
+  margin-top: 16px;
+}
+
+/* Index.html */
+.title {
+  font-size: 56px;
+  line-height: 107%;
+  color: var(--only-white);
+  text-align: center;
+  padding-bottom: 48px;
+}
+.section {
+  padding: 120px 0px;
+}
+.button-index {
+  background-color: var(--prime-color);
+  color: var(--only-white);
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  padding: 16px 32px 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+}
+.button-index:hover {
+  background-color: var(--prime-color);
+}
+.button-index:active {
+  background-color: var(--prime-color);
+}
+.examples-list {
+  display: flex;
+  justify-content: space-between;
+}
+.examples {
+  display: flex;
+  margin-right: 24px;
+}
+.examples:last-child {
+  margin-right: 0;
+}
+.team-card-text {
+  background-color: var(--only-white);
+  padding: 32px 0px;
+}
+.team-card-h {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team-card-p {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text-color);
+  text-align: center;
+}
+.section-title {
+  background-color: var(--dark-color);
+}
+.section-second {
+  color: var(--text-color);
+}
+.what-doing {
+  padding-top: 0px;
+}
+.our-team {
+  background-color: var(--cloud-color);
+  padding-bottom: 120px;
+}
+.text-h-section {
+  font-size: 36px;
+  line-height: 111%;
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+}
+.li-card {
+  margin-right: 24px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.li-card:last-child {
+  margin-right: 0;
+}
+.team-card-social {
+  display: flex;
+  margin-right: 0;
+  justify-content: center;
+  margin-top: 12px;
+}
+.team-card-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--prime-color);
+  border-radius: 50%;
+  margin-right: 24px;
+}
+.team-card-icons:last-child {
+  margin-right: 0;
+}
+
+/* Portfolio */
+.hidden-text {
+  display: none;
+}
+.section-buttons {
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+.list-portfolio {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.buttons {
+  background-color: var(--cloud-color);
+  color: var(--prime-color);
+  font-weight: 600;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+.list-buttons {
+  margin-right: 24px;
+}
+.list-buttons:last-child {
+  margin-right: 0;
+}
+.buttons:hover {
+  background-color: var(--prime-color);
+  color: var(--only-white);
+}
+.buttons:active {
+  background-color: var(--second-color);
+  color: var(--only-white);
+}
+.portfolio-main {
+  padding-top: 0;
+  padding-bottom: 144px;
+}
+.portfolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -24px -12px -24px -12px;
+}
+.portfolio-li {
+  display: flex;
+  flex-basis: calc(100% / 3-24px);
+  margin: 24px 12px;
+}
+.portfolio-card {
+  text-decoration: none;
+  font-style: normal;
+}
+.image {
+  display: block;
+}
+.portfolio-li:nth-child(n + 7) {
+  margin-bottom: 0px;
+}
+.projects {
+  padding: 32px 16px;
+  border: 0.5px solid var(--cloud-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  border-style: none solid;
+}
