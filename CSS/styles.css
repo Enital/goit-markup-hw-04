@@ -256,6 +256,32 @@ body {
 .team-card-icons:last-child {
   margin-right: 0;
 }
+.customers-list {
+  display: flex;
+}
+.customers-icons {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--subtle-color);
+  border-radius: 4px;
+}
+.custom-ico{
+  display: flex;
+  height: 56px;
+  width: 104px;
+  align-items: center;
+  justify-content: center;
+  fill: var(--subtle-color);
+}
+.customers-icons:hover{
+  border: 1px solid var(--prime-color);
+}
+.custom-ico:hover{
+  fill: var(--prime-color);
+}
 
 /* Portfolio */
 .hidden-text {
