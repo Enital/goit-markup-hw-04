@@ -66,7 +66,9 @@ body {
 .nav-link:last-child {
   margin-right: 0px;
 }
-.nav-link:hover,
+.nav-link:hover {
+  color: var(--prime-color);
+}
 .nav-link:visited {
   color: var(--text-color);
 }
@@ -103,6 +105,9 @@ body {
 }
 .link:first-child {
   margin-right: 40px;
+}
+.link:hover{
+  color: var(--prime-color);
 }
 .address {
   display: flex;
@@ -269,15 +274,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-/* .bg-image{
-  background-image: url(../images/people-office.jpg);
-  max-width: 1660px;
-  padding: 0 0;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-} */
 .section-second {
   color: var(--text-color);
 }
