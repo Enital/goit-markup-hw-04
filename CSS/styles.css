@@ -228,7 +228,6 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 0 auto;
-  
 }
 .examples-list {
   display: flex;
@@ -314,7 +313,7 @@ body {
 .team-card-social {
   display: flex;
   margin-right: 0;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-top: 12px;
 }
 .team-card-icons {
