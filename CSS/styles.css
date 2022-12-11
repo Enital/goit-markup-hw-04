@@ -170,8 +170,17 @@ body {
   display: flex;
 }
 .footer-icons {
-  display: inline;
-  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 24px;
+}
+.footer-icons:hover {
+  background-color: var(--success-color);
 }
 
 /* Index.html */
@@ -210,6 +219,7 @@ body {
   width: 264px;
   background-color: var(--cloud-color);
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 .feature-icon {
   width: 64px;
@@ -218,7 +228,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 0 auto;
-  margin-bottom: 8px;
+  
 }
 .examples-list {
   display: flex;
@@ -227,13 +237,14 @@ body {
 .examples {
   display: flex;
   margin-right: 24px;
+  border: 1px solid var(--accent-color);
 }
 .examples:last-child {
   margin-right: 0;
 }
 .team-card-text {
   background-color: var(--only-white);
-  padding: 32px 0px;
+  padding: 32px 16px;
 }
 .team-card-h {
   font-size: 16px;
@@ -248,8 +259,26 @@ body {
   text-align: center;
 }
 .section-title {
-  background-color: var(--dark-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  max-width: 1660px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+/* .bg-image{
+  background-image: url(../images/people-office.jpg);
+  max-width: 1660px;
+  padding: 0 0;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
 .section-second {
   color: var(--text-color);
 }
@@ -285,7 +314,7 @@ body {
 .team-card-social {
   display: flex;
   margin-right: 0;
-  justify-content: center;
+  justify-content:space-between;
   margin-top: 12px;
 }
 .team-card-icons {
@@ -327,19 +356,7 @@ body {
 .custom-ico:hover {
   fill: var(--prime-color);
 }
-.footer-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  margin-right: 24px;
-}
-.footer-icons:hover {
-  background-color: var(--success-color);
-}
+
 .footer-social-text {
   font-family: "Roboto";
   font-style: normal;
