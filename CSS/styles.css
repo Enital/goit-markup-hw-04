@@ -106,7 +106,7 @@ body {
 .link:first-child {
   margin-right: 40px;
 }
-.link:hover{
+.link:hover {
   color: var(--prime-color);
 }
 .address {
@@ -224,7 +224,6 @@ body {
   width: 264px;
   background-color: var(--cloud-color);
   border-radius: 4px;
-  margin-bottom: 8px;
 }
 .feature-icon {
   width: 64px;
@@ -233,6 +232,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   margin: 0 auto;
+  margin-bottom: 8px;
 }
 .examples-list {
   display: flex;
@@ -325,11 +325,9 @@ body {
 .team-card-icons:last-child {
   margin-right: 0;
 }
-.customers-list {
-  display: flex;
-}
+
 .customers-icons {
-  display: flex;
+  display: flex;  
   width: 168px;
   height: 88px;
   justify-content: center;
@@ -337,8 +335,15 @@ body {
   border: 1px solid var(--subtle-color);
   border-radius: 4px;
 }
+.customers-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
 .custom-ico {
-  display: flex;
   height: 56px;
   width: 104px;
   align-items: center;
@@ -395,6 +400,9 @@ body {
 .buttons:hover {
   background-color: var(--prime-color);
   color: var(--only-white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--prime-color);
 }
 .buttons:active {
   background-color: var(--second-color);
