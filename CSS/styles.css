@@ -219,20 +219,23 @@ body {
 .button-index:active {
   background-color: var(--prime-color);
 }
+.section-feature {
+  padding-bottom: 0;
+}
 .feature-li {
-  height: 112px;
   width: 264px;
-  background-color: var(--cloud-color);
   border-radius: 4px;
 }
 .feature-icon {
-  width: 64px;
+  display: flex;
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud-color);
   justify-content: center;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin: 0 auto;
   margin-bottom: 8px;
+}
+.feature-icon-some {
 }
 .examples-list {
   display: flex;
@@ -327,13 +330,17 @@ body {
 }
 
 .customers-icons {
-  display: flex;
   width: 168px;
   height: 88px;
-  justify-content: center;
-  align-items: center;
   border: 1px solid var(--subtle-color);
   border-radius: 4px;
+}
+.customers-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .customers-item {
   display: block;
