@@ -327,7 +327,7 @@ body {
 }
 
 .customers-icons {
-  display: flex;  
+  display: flex;
   width: 168px;
   height: 88px;
   justify-content: center;
@@ -353,7 +353,7 @@ body {
 .customers-icons:hover {
   border: 1px solid var(--prime-color);
 }
-.custom-ico:hover {
+.customers-icons:hover .custom-ico {
   fill: var(--prime-color);
 }
 
